@@ -1,0 +1,30 @@
+# Git attributes for text normalization
+* text=auto
+
+# Flutter files
+*.dart text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.md text eol=lf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+
+# Archives
+*.zip binary
+*.gz binary
+*.tar binary
+
+# APK and IPA
+*.apk binary
+*.ipa binary
+*.aab binary
+
+# Build outputs
+build/ export-ignore
+.dart_tool/ export-ignore
+.flutter-plugins export-ignore
